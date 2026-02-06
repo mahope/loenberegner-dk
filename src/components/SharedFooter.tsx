@@ -57,13 +57,13 @@ export default function SharedFooter() {
             - Gratis online værktøjer
           </p>
           <div className="flex gap-4 mt-2 sm:mt-0">
-            <a
-              href="https://privacy.holstjensen.eu"
-              className="hover:text-blue-600"
-            >
+            <a href="/privatlivspolitik" className="hover:text-blue-600">
               Privatlivspolitik
             </a>
-            <a href="mailto:kontakt@mahope.dk" className="hover:text-blue-600">
+            <a href="/cookiepolitik" className="hover:text-blue-600">
+              Cookiepolitik
+            </a>
+            <a href="mailto:kontakt@loenberegner.dk" className="hover:text-blue-600">
               Kontakt
             </a>
           </div>
